@@ -3,7 +3,7 @@
 <head>
   <title>Free Resume & Bio Generator Online</title>
   <meta charset="UTF-8">
-  <meta name="description" content="Create professional resume and Instagram bio online for free. Easy resume generator tool for students and job seekers.">
+  <meta name="description" content="Create professional resume and Instagram bio online for free. Best resume generator tool for students and freshers.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -17,11 +17,18 @@
 <a href="contact.html">Contact</a> |
 <a href="privacy.html">Privacy Policy</a>
 </p>
+
+<p>
+<a href="resume-tips.html">Resume Tips</a> |
+<a href="bio-ideas.html">Bio Ideas</a> |
+<a href="interview-tips.html">Interview Tips</a> |
+<a href="career-guide.html">Career Guide</a> |
+<a href="freshers-resume.html">Freshers Resume</a>
+</p>
 <hr>
 
-<p>Create your professional resume and Instagram bio easily using our free tool.</p>
-
-<h2>Enter Your Details</h2>
+<h2>Create Your Resume</h2>
+<p>Fill your details below and click Generate Resume to get a professional resume text.</p>
 
 <input id="name" placeholder="Your Name" style="width:100%;padding:8px;"><br><br>
 <input id="skill" placeholder="Your Skills" style="width:100%;padding:8px;"><br><br>
@@ -33,6 +40,12 @@
 <h2>Your Resume</h2>
 <textarea id="output" style="width:100%;height:200px;"></textarea>
 
+<hr>
+
+<h2>Why Use Our Resume Generator?</h2>
+<p>Our tool is specially designed for students and freshers who want to create a professional resume without paying any money. You can easily create your resume and Instagram bio in just a few seconds.</p>
+<p>We believe everyone deserves a good start in their career journey.</p>
+
 <script>
 function generate(){
   var name = document.getElementById("name").value;
@@ -40,11 +53,12 @@ function generate(){
   var edu = document.getElementById("edu").value;
   var exp = document.getElementById("exp").value;
 
-  var text = "Name: " + name +
+  var text = 
+  "Name: " + name +
   "\nSkills: " + skill +
   "\nEducation: " + edu +
   "\nExperience: " + exp +
-  "\n\nI am a motivated professional seeking opportunities to grow my career.";
+  "\n\nI am a motivated professional looking for opportunities to grow my career.";
 
   document.getElementById("output").value = text;
 }
