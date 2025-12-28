@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Resume & Bio Generator</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Resume & Bio Generator Online</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Create professional resume and Instagram bio online for free. Easy resume generator tool for students and job seekers.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body style="font-family:Arial; max-width:800px; margin:auto; padding:20px;">
+<body style="font-family:Arial; max-width:900px; margin:auto; padding:20px;">
 
 <h1>Free Resume & Bio Generator</h1>
-<p>Create your professional resume and Instagram bio easily.</p>
+
+<p>
+<a href="index.html">Home</a> |
+<a href="about.html">About</a> |
+<a href="contact.html">Contact</a> |
+<a href="privacy.html">Privacy Policy</a>
+</p>
+<hr>
+
+<p>Create your professional resume and Instagram bio easily using our free tool.</p>
 
 <h2>Enter Your Details</h2>
 
@@ -25,18 +35,18 @@
 
 <script>
 function generate(){
-var name=document.getElementById("name").value;
-var skill=document.getElementById("skill").value;
-var edu=document.getElementById("edu").value;
-var exp=document.getElementById("exp").value;
+  var name = document.getElementById("name").value;
+  var skill = document.getElementById("skill").value;
+  var edu = document.getElementById("edu").value;
+  var exp = document.getElementById("exp").value;
 
-var text = "Name: " + name +
-"\nSkills: " + skill +
-"\nEducation: " + edu +
-"\nExperience: " + exp +
-"\n\nI am a motivated professional seeking opportunities to grow my career.";
+  var text = "Name: " + name +
+  "\nSkills: " + skill +
+  "\nEducation: " + edu +
+  "\nExperience: " + exp +
+  "\n\nI am a motivated professional seeking opportunities to grow my career.";
 
-document.getElementById("output").value = text;
+  document.getElementById("output").value = text;
 }
 </script>
 
